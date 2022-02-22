@@ -2,9 +2,9 @@
 
 /* ROOM */
 
-const roomName = "Room Name";
-const botName = "HaxBot";
-const maxPlayers = 12;
+const roomName = "⚾HaxBaseBall⚾";
+const botName = "BaseBot";
+const maxPlayers = 20;
 const roomPublic = true;
 const scoreLimit = 3;
 const timeLimit = 3;
@@ -59,7 +59,7 @@ room.onGameUnpause = function(byPlayer) {
 room.onTeamGoal = function(team) {
 }
 
-room.onPositionsReset = function() {
+room.onPositionsReset = function(byPlayer) {
 }
 
 /* MISCELLANEOUS */
@@ -73,5 +73,5 @@ room.onPlayerAdminChange = function(changedPlayer, byPlayer) {
 room.onStadiumChange = function(newStadiumName, byPlayer) {
 }
 
-room.onGameTick = function() {
+room.onGameTick = function(byPlayer) {
 }
