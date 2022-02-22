@@ -1,10 +1,15 @@
+
+
+room.onGameUnpause = function(byPlayer) {
+}
 /* VARIABLES */
 
 /* ROOM */
 
-const roomName = "Room Name";
-const botName = "HaxBot";
-const maxPlayers = 12;
+const roomName = "⚾HaxBaseball⚾
+";
+const botName = "BaseBot";
+const maxPlayers = 20;
 const roomPublic = true;
 const scoreLimit = 3;
 const timeLimit = 3;
@@ -52,10 +57,6 @@ room.onGameStop = function(byPlayer) {
 
 room.onGamePause = function(byPlayer) {
 }
-
-room.onGameUnpause = function(byPlayer) {
-}
-
 room.onTeamGoal = function(team) {
 }
 
