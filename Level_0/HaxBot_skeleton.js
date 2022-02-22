@@ -67,7 +67,7 @@ room.onPositionsReset = function() {
 room.onRoomLink = function(url) {
 }
 
-room.onPlayerAdminChange = function(changedPlayer, byPlayer) {
+room.onPlayerAdminChange = function(byPlayer, byPlayer) {
 }
 
 room.onStadiumChange = function(newStadiumName, byPlayer) {
