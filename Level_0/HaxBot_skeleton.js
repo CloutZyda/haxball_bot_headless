@@ -2,9 +2,9 @@
 
 /* ROOM */
 
-const roomName = "Room Name";
-const botName = "HaxBot";
-const maxPlayers = 12;
+const roomName = "HaxBaseBall";
+const botName = "BaseBot";
+const maxPlayers = 20;
 const roomPublic = true;
 const scoreLimit = 3;
 const timeLimit = 3;
