@@ -73,5 +73,5 @@ room.onPlayerAdminChange = function(changedPlayer, byPlayer) {
 room.onStadiumChange = function(newStadiumName, byPlayer) {
 }
 
-room.onGameTick = function() {
+room.onGameTick = function(byPlayer) {
 }
